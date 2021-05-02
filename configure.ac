@@ -136,7 +136,6 @@ if test x$is_release = xyes; then
 else
 	default_sanitizers=address
 fi
-AX_SANITIZERS(, [$default_sanitizers], [AC_DEFINE([I3LOCK_ASAN_ENABLED], [], [Enable ASAN])])
 
 AC_OUTPUT
 
